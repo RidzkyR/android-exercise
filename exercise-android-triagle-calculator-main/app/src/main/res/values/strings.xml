@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Andoid-Exercises-2</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="button">PENCET</string>
+    <string name="tv_alas">Alas</string>
+    <string name="tv_tinggi">Tinggi</string>
+    <string name="tv_title">LUAS SEGITIGA</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Learning Android</string>
+    <string name="nameLabel" translatable="false">Name</string>
+    <string name="btnSayHello" translatable="false">Say Hello</string>
+    <string name="resultSayHello" translatable="false">Hello %1$s</string>
+    <string-array name="names">
+        <item>Budi</item>
+        <item>Joko</item>
+        <item>Jiki</item>
+        <item>Satrio</item>
+    </string-array>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/btnExplisit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOVE NO DATA"/>
+
+        <Button
+            android:id="@+id/btnExplisitData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOVE WITH DATA"/>
+
+        <Button
+            android:id="@+id/btnExplisiObject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOVE WITH OBJECT"/>
+
+        <Button
+            android:id="@+id/btnImplisit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMPLISIT INTENT"/>
+
+        <Button
+            android:id="@+id/btnBalikinData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NANTI DIA BALIKIN DATA"/>
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="nanti balikan-nya di sini"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

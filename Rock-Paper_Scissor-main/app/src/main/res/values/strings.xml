@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android-Exercise-1</string>
+    <string name="tv_computer">COMPUTER</string>
+    <string name="tv_player">PLAYER</string>
+    <string name="tv_choose">(choose your hero)</string>
+    <string name="tv_result">RESULT : </string>
+</resources>
